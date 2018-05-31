@@ -41,3 +41,32 @@ In [.babelrc](./.babelrc):
 }
 ```
 
+### Vendors chunk
+
+Create vendors chunk for third-party libreries.
+
+In [webpack.config](./webpack.config.js):
+
+```js
+module.exports = {
+  entry: {
+    app: './src',
+    vendors: ['jquery', 'react', 'angular', 'lodash']
+  },
+  
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendors: {
+          chunks: 'initial',
+            name: 'vendors',
+            test: 'vendors',
+            enforce: true
+        },
+      }
+    }
+  }
+
+}
+```
+
