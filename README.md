@@ -34,9 +34,9 @@ In .babelrc:
 ```json
 {
   "presets": [
-    ["env", {"modules": false"}]
+    ["env", {"modules": false}]
   ],
-  
+
   "plugins": ['syntax-dynamic-import']
 }
 ```
