@@ -10,7 +10,7 @@ https://bit.ly/2xpZOEg
 
 ### Tree Shaking
 
-In .babelrc, turn off preset's module system:
+In [.babelrc](./.babelrc), turn off preset's module system:
 
 ```json
 {
@@ -29,7 +29,7 @@ We need a plugin for it:
 $ npm i babel-plugin-syntax-dynamic-import --save-dev
 ```
 
-In .babelrc:
+In [.babelrc](./.babelrc):
 
 ```json
 {
