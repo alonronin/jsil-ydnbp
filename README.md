@@ -37,7 +37,7 @@ In .babelrc:
     ["env", {"modules": false}]
   ],
 
-  "plugins": ['syntax-dynamic-import']
+  "plugins": ["syntax-dynamic-import"]
 }
 ```
 
