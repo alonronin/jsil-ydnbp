@@ -5,6 +5,9 @@ You Don't Need A Boilerpalate
 
 `git clone` && `npm i` && `npm start`
 
+### The talk
+https://youtu.be/dfPCFTEbtKI
+
 ### Slides
 https://bit.ly/2xpZOEg
 
